@@ -208,3 +208,61 @@ button {
     font-size: 24px;
   }
 }
+/* ---------------- Items Count + Sort Bar ---------------- */
+
+.items-sort {
+  padding: 24px 24px 16px;
+}
+
+.items-sort-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.items-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.link-underline {
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  cursor: pointer;
+}
+
+.sort-dropdown {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+}
+
+.sort-dropdown select {
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .items-sort {
+    padding: 16px;
+  }
+
+  .items-sort-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+}
