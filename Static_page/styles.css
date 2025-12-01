@@ -165,4 +165,46 @@ button {
     display: none; /* later you can make it into a drawer if you want */
   }
 }
+/* ---------------- Hero Section ---------------- */
 
+.hero {
+  padding: 48px 24px 32px;
+  text-align: center;
+}
+
+.hero-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 32px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  margin: 0 0 16px;
+}
+
+.hero-subtitle {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.section-divider {
+  border: none;
+  border-bottom: 1px solid var(--border-subtle);
+  margin: 32px auto 0;
+  max-width: var(--max-width);
+}
+
+/* Responsive hero */
+@media (max-width: 768px) {
+  .hero {
+    padding: 32px 16px 24px;
+  }
+
+  .hero-title {
+    font-size: 24px;
+  }
+}
