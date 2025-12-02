@@ -162,7 +162,7 @@ button {
   }
 
   .main-nav {
-    display: none; /* later you can make it into a drawer if you want */
+    display: none; 
   }
 }
 /* ---------------- Hero Section ---------------- */
@@ -317,7 +317,7 @@ button {
   color: var(--text-muted);
 }
 
-/* Products container (empty for now, will fill grid later) */
+
 
 .products {
   display: flex;
@@ -351,7 +351,7 @@ button {
 
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 24px;
 }
 
